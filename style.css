@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #fff;
+  padding: 1em 3em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav-items {
+  display: flex;
+}
+
+header .nav-items a {
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  margin-right: 2em;
+}
+
+header .nav-items a:hover {
+  color: salmon;
+}
+
+#home .content-home {
+  padding: 5em 3em 1em 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#home h1 {
+  color: #000;
+  font-size: 60px;
+}
+
+#home p {
+  color: rgb(109, 109, 109);
+}
+
+#home .kotak {
+  width: 150px;
+  height: 6px;
+  background-color: salmon;
+  margin-top: 0.5em;
+  border-bottom-right-radius: 20px;
+}
+
+#about {
+  padding-top: 5em;
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 40px;
+}
+
+#about p {
+  width: 1000px;
+}
+
+#contact {
+  padding: 1em 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact form label {
+  text-align: left;
+  margin-top: 0.5em;
+}
+#contact form input,
+#contact form textarea {
+  width: 600px;
+  padding: 0.5em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+}
